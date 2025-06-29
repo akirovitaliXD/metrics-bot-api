@@ -1,0 +1,11 @@
+# Project dependencies
+fastapi==0.110.1
+uvicorn[standard]==0.29.0
+SQLAlchemy==2.0.29
+apscheduler==3.10.4
+paramiko==3.4.0
+aiogram==2.25.1
+httpx==0.27.0
+matplotlib==3.8.4
+pillow==10.3.0
+python-dotenv==1.0.1
