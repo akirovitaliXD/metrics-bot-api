@@ -9,7 +9,7 @@ from config import get_settings
 from db.database import Base, engine, SessionLocal
 from db.models import Server, Metric
 from db.scheduler import start_scheduler
-from telegram_bot import start_bot_background
+from bot import start_bot_background
 
 settings = get_settings()
 
